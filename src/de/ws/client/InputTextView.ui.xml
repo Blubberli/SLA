@@ -1,0 +1,64 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+		font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel ui:field="contentPanel">
+		<g:HTMLPanel ui:field="inputPanel">
+			<g:HTMLPanel ui:field="topPanel">
+			</g:HTMLPanel>
+
+			<div class="col-md-10" style="margin-rigth:10%" id="panel1">
+				<div class="card ">
+					<div class="card-header" style="height:2.5cm;">
+
+						<g:HTML ui:field="heading">
+							<h1 class="mb-3 insertText-header vocab-q">Insert a text here</h1>
+						</g:HTML>
+					</div>
+
+					<g:HTMLPanel ui:field="inputGroup"
+						styleName="input-group mb-5 d-flex justify-content-center">
+						<g:HTMLPanel ui:field="inputField"
+							styleName="logpad input-group-prepend col-md-12 loginel">
+							<g:TextArea ui:field="user_answer" styleName="form-control"></g:TextArea>
+						</g:HTMLPanel>
+						<g:Button ui:field="submit">
+							<div class="btn btn-success btn-sm">
+								<span class="fas fa-paper-plane"></span>
+								Submit
+							</div>
+						</g:Button>
+					</g:HTMLPanel>
+
+
+				</div>
+
+			</div>
+
+		</g:HTMLPanel>
+
+		<g:HTMLPanel ui:field="warning">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<div class="alert alert-warning">
+							<button type="button" class="close" data-dismiss="alert"
+								aria-hidden="true">
+								×</button>
+							<span class="fas fa-exclamation-triangle"></span>
+							<strong>No input text!</strong>
+							<hr class="message-inner-separator">
+								<p>You have to provide a tet input!</p>
+							</hr>
+						</div>
+					</div>
+				</div>
+			</div>
+		</g:HTMLPanel>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

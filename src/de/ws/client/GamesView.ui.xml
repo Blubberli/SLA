@@ -1,0 +1,121 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>	
+	<g:HTMLPanel ui:field="contentPanel">
+	
+    
+	<g:HTMLPanel ui:field="questionPanel">
+    <div class="col-md-12" id="panel1" style="margin-left: 20%; margin-top:10%">
+    <g:HTMLPanel ui:field="progresspanel">
+</g:HTMLPanel>
+        <div class="card ">
+            <div class="card-header">
+             
+                <h3 class="card-header">
+                <div class="row" style="background-color:#f0f0f0 vocab-q">
+                    <span class="fa fa-question-circle" style="margin-top: 0.3cm;"> </span><g:HTML ui:field="vocabulary">
+                      <span class="vocab-q">
+                      Satisfaction Survey
+                      </span>
+                     </g:HTML></div></h3>
+            </div>
+            
+            <g:HTMLPanel ui:field="inputGroup" styleName=" input-group mb-3 d-flex justify-content-center">
+						<g:HTMLPanel ui:field="inputPassword" styleName="logpad input-group-prepend loginel">
+							<span class="input-group-text" style="float:left" id="basic-addon2"><i class="fas fa-comment"></i></span>
+						    <g:TextBox ui:field="user_answer" styleName="form-control"></g:TextBox>
+						</g:HTMLPanel>
+			</g:HTMLPanel>
+              
+
+            </div>
+            <div class="card-footer" style="background-color:#f7f7f7">
+                <div class="row" style="background-color:#f0f0f0">
+                    <div class="col-md-6">
+                    	<g:Button ui:field="helpbutton">
+                        <div class="btn btn-secondary btn-sm btn-block" data-toggle="tooltip" data-placement="bottom">
+                           <span class="fa fa-question-circle"></span> Help</div>
+                         </g:Button>
+                    </div>
+                    <div class="col-md-6">
+                    	<g:Button ui:field="submit">
+                        <div class="btn btn-success btn-sm btn-block">
+                            <span class="fas fa-paper-plane"></span> Next</div>
+                         </g:Button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p1">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p2">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar"  style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p3">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p4">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p5">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p6">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p7">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p8">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p9">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="p10">
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+</div>
+</g:HTMLPanel>
+
+<g:HTMLPanel ui:field="progress">
+</g:HTMLPanel>
+
+
+	</g:HTMLPanel>
+</ui:UiBinder> 
