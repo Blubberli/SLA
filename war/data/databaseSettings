@@ -1,0 +1,21 @@
+CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+name TEXT UNIQUE,
+passwd TEXT
+);
+
+CREATE TABLE userWords(
+    wordId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    userId INTEGER,
+    word TEXT,
+
+FOREIGN KEY(userId) REFERENCES users(id)
+);
+
+trackartist IS NULL OR EXISTS(SELECT 1 FROM artist WHERE artistid=trackartist)
+______________
+
+admin: heyho
+kate: hello
+obi: wan
+test: test
+name: name
