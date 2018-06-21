@@ -1,0 +1,65 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+
+	</ui:style>
+
+	<g:HTMLPanel ui:field="infoPan">
+		<g:HTMLPanel ui:field="textconfig">
+			<div class="card heit1">
+				<g:HTMLPanel ui:field="textName" styleName="card-header textname"></g:HTMLPanel>
+				<!-- <div class="card-header textname">* Text</div> -->
+				<div class="card-body">
+					<g:HTMLPanel ui:field="saveTextPanel" styleName="">
+						<g:HTML ui:field="saveIt">
+							<h6 class="card-title">Save this text: </h6>
+						</g:HTML>
+						<!-- <a href="#" class="btn btn-primary">Save</a> -->
+						<g:HTMLPanel ui:field="pan1" styleName="input-group mb-3">
+							<g:HTMLPanel ui:field="pan2" styleName="input-group-append">
+								<g:TextBox ui:field="insertTitle" styleName="form-control inputTitle">
+								</g:TextBox>
+								<g:Anchor ui:field="saveText" styleName="btn btn-outline-secondary savetext">Save</g:Anchor>
+							</g:HTMLPanel>
+						</g:HTMLPanel>
+					</g:HTMLPanel>
+
+					<h6 class="card-text padd">Difficulty:</h6>
+					<div class="progress">
+						<g:FocusPanel ui:field="easy">
+							<g:HTML ui:field="easyHTML">Easy</g:HTML>
+						</g:FocusPanel>
+						<g:FocusPanel ui:field="medium">
+							<g:HTML ui:field="mediumHTML">Medium</g:HTML>
+						</g:FocusPanel>
+						<g:FocusPanel ui:field="hard">
+							<g:HTML ui:field="hardHTML">Hard</g:HTML>
+						</g:FocusPanel>
+					</div>
+					<g:HTMLPanel ui:field="coverage"></g:HTMLPanel>
+
+				</div>
+			</div>
+		</g:HTMLPanel>
+		<g:HTMLPanel ui:field="wordconfig">
+			<div class="card text-center wordconfig">
+				<div class="card-header d-flex justify-content-center">
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<g:Anchor ui:field="trbtn" styleName="nav-link active wordconfig-tabs">Translate</g:Anchor>
+						</li>
+						<li class="nav-item">
+							<g:Anchor ui:field="infobtn" styleName="nav-link disabled wordconfig-tabs">Info</g:Anchor>
+						</li>
+						<li class="nav-item">
+							<g:Anchor ui:field="savewordbtn" styleName="nav-link disabled wordconfig-tabs">Save</g:Anchor>
+						</li>
+					</ul>
+				</div>
+				<g:HTMLPanel ui:field="wordinfo" styleName="card-body wordscroll">
+				</g:HTMLPanel>
+			</div>
+		</g:HTMLPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

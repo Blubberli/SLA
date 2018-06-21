@@ -1,0 +1,31 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel ui:field="contentPanel">
+	
+	<g:HTMLPanel ui:field="instruction" styleName="row homerow">
+	      <div class="col-md-7 col-lg-7 text-center">
+	        <h1 class="mb-3 about-header">Vocab Game</h1>
+	        <p class="lead mb-4 about-text">
+	            This small game will help you to test your knowledge about your saved words.
+	            You will get 10 random words from your personal list in finnish and have to type the translation
+	            of it into the text field. You don't have to give all possible translations, you'll get a point if
+	            at least one of your translation words is correct. If you give more thatn one translations, 
+	            seperate them with a whitespace. To get a hint, hover over the 'hint' button and you'll get the first
+	            three letters of the first translation. To go to the next vocabulary press Enter or 'submit'.
+	            Good Luck!
+	        </p>
+	       
+	        <g:Button ui:field="go">
+                        <div class="btn btn-success btn-sm">
+                            <span class=" fas fa-chevron-circle-right"></span> GO!</div>
+                         </g:Button>
+	      </div>
+        </g:HTMLPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

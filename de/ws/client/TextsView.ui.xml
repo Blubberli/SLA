@@ -1,0 +1,158 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+		font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel ui:field="contentPanel">
+		<g:HTMLPanel ui:field="row1Panel">
+			<div class="container">
+				<div class="row">
+
+					<div class="col flexing">
+
+						<div class="polaroid" style="float: left">
+							<img class="card-img-top" style="height: 140px; width: 100%"
+								src="/images/hospital.jpg" alt="Card image cap"></img>
+							<div class="card-body">
+								<h5 class="card-title" style="text-align: center;">"In the hospital"</h5>
+								<p class="card-text" style="text-align: center;">Reading level: easy</p>
+								<g:Button ui:field="cardPanel1">
+									<a href="#" class="cardbutton">Read this text</a>
+								</g:Button>
+							</div>
+						</div>
+					</div>
+					<div class="col flexing">
+						<div class="polaroid">
+							<img class="card-img-top" style="height: 140px; width:100%"
+								src="/images/restaurant.jpg" alt="Card image cap"></img>
+							<div class="card-body">
+								<h5 class="card-title">"Restaurant"</h5>
+								<p class="card-text">Reading level: easy</p>
+								<g:Button ui:field="cardPanel2">
+									<a href="#" class="cardbutton">Read this text</a>
+								</g:Button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col flexing">
+						<div class="polaroid">
+							<img class="card-img-top" style="height: 140px; width: 100%"
+								src="/images/cottage.jpg" alt="Card image cap"></img>
+							<div class="card-body" style="height: 165.5 px !important">
+								<h5 class="card-title">"Summer at cottage"</h5>
+								<p class="card-text">Reading level: easy</p>
+								<g:Button ui:field="cardPanel3">
+									<a href="#" class="cardbutton">Read this text</a>
+								</g:Button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</g:HTMLPanel>
+
+		<g:HTMLPanel ui:field="row2Panel">
+			<div class="container">
+				<div class="row">
+
+					<div class="col flexing">
+
+						<div class="polaroid">
+							<img class="card-img-top" style="height: 140px; width: 100%"
+								src="/images/space.jpg" alt="Card image cap"></img>
+							<div class="card-body">
+								<h5 class="card-title">"Vacation in Space"</h5>
+								<p class="card-text">Reading level: medium</p>
+								<g:Button ui:field="cardPanel4">
+									<a href="#" class="cardbutton">Read this text</a>
+								</g:Button>
+							</div>
+						</div>
+					</div>
+					<div class="col flexing">
+						<div class="polaroid">
+							<img class="card-img-top" style="height: 140px; width: 100%"
+								src="/images/finnland.jpg" alt="Card image cap"></img>
+							<div class="card-body">
+								<h5 class="card-title">"The happy country"</h5>
+								<p class="card-text">Reading level: medium</p>
+								<g:Button ui:field="cardPanel5">
+									<a href="#" class="cardbutton">Read this text</a>
+								</g:Button>
+							</div>
+						</div>
+					</div>
+					<div class="col flexing">
+						<div class="polaroid">
+							<img class="card-img-top" style="height: 140px; width: 100%"
+								src="/images/sauna.jpg" alt="Card image cap"></img>
+							<div class="card-body">
+								<h5 class="card-title">"Sauna goes UNESCO..."</h5>
+								<p class="card-text">Reading level: medium</p>
+								<g:Button ui:field="cardPanel6">
+									<a href="#" class="cardbutton">Read this text</a>
+								</g:Button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</g:HTMLPanel>
+
+		<g:HTMLPanel ui:field="row3Panel">
+			<div class="container">
+				<div class="row">
+
+					<div class="col flexing">
+						<div class="polaroid">
+							<img class="card-img-top" style="height: 140px" src="/images/helsinki.jpg"
+								alt="Card image cap"></img>
+							<div class="card-body">
+								<h5 class="card-title">"Helsinki"</h5>
+								<p class="card-text">Reading level: difficult</p>
+								<g:Button ui:field="cardPanel7">
+									<a href="#" class="cardbutton">Read this text</a>
+								</g:Button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col flexing">
+						<div class="polaroid">
+							<img class="card-img-top" style="height: 140px" src="/images/football.jpg"
+								alt="Card image cap"></img>
+							<div class="card-body">
+								<h5 class="card-title">"Football in Finnland"</h5>
+								<p class="card-text">Reading level: hard</p>
+								<g:Button ui:field="cardPanel8">
+									<a href="#" class="cardbutton!important">Read this text</a>
+								</g:Button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col flexing">
+						<div class="polaroid">
+							<img class="card-img-top" style="height: 140px" src="/images/ikea.jpg"
+								alt="Card image cap"></img>
+							<div class="card-body">
+								<h5 class="card-title">"IKEA"</h5>
+								<p class="card-text">Reading level: hard</p>
+								<g:Button ui:field="cardPanel9">
+									<a href="#" class="cardbutton">Read this text</a>
+								</g:Button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</g:HTMLPanel>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

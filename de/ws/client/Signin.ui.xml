@@ -1,0 +1,41 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+		font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel ui:field="mainPanel">
+		<g:HTMLPanel ui:field="loginform" styleName="loginform">
+			<g:HTMLPanel ui:field="card" styleName="card login  text-center">
+				<g:HTMLPanel ui:field="header" styleName="card-header login-header">Log in</g:HTMLPanel>
+				<g:HTMLPanel ui:field="success"></g:HTMLPanel>
+				<g:HTMLPanel ui:field="cardBody" styleName="card-body my-card-body">
+					<g:HTMLPanel ui:field="inputGroup"
+						styleName="input-group mb-3 d-flex justify-content-center">
+						<g:HTMLPanel ui:field="inputName" styleName="input-group-prepend loginel">
+							<span class="input-group-text" id="basic-addon1">
+								<i class="fas fa-user"></i>
+							</span>
+							<g:TextBox ui:field="name" styleName="form-control"></g:TextBox>
+						</g:HTMLPanel>
+					</g:HTMLPanel>
+
+					<g:HTMLPanel ui:field="inputGroup2"
+						styleName=" input-group mb-3 d-flex justify-content-center">
+						<g:HTMLPanel ui:field="inputPassword"
+							styleName="logpad input-group-prepend loginel">
+							<span class="input-group-text" id="basic-addon2">
+								<i class="fas fa-lock"></i>
+							</span>
+							<g:TextBox ui:field="password" styleName="form-control"></g:TextBox>
+						</g:HTMLPanel>
+					</g:HTMLPanel>
+					<g:Anchor ui:field="send" styleName="loginel btn btn-primary loginbtn">Log in</g:Anchor>
+				</g:HTMLPanel>
+			</g:HTMLPanel>
+
+		</g:HTMLPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

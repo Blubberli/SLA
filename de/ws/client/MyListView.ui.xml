@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel ui:field="contentPanel">
+	<g:FlexTable ui:field="table" styleName="table vocab-table table-light table-striped table-bordered"></g:FlexTable>
+	
+	<g:HTMLPanel ui:field="wordListPanel">
+	<div class="col-md-5 col-lg-5 text-center">
+	        <h1 class="mb-3 about-header">My words</h1>
+	        </div>
+	</g:HTMLPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
